@@ -4,7 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Okay Fish Market — fresh fish in Paterson, NJ. Family owned, since day one. 235 Buffalo Ave, Paterson, NJ 07503." />
+  <meta property="og:title" content="Okay Fish Market - Paterson NJ" />
+  <meta property="og:description" content="Family-owned fish market in Paterson, NJ. Fresh fish and shellfish every day we're open." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Okay Fish Market - Paterson NJ" />
+  <meta name="twitter:description" content="Family-owned fish market in Paterson, NJ. Fresh fish and shellfish every day we're open." />
   <title>Okay Fish Market — Paterson, NJ</title>
+  <link rel="icon" type="image/svg+xml" href="./src/assets/img/favicon.svg" />
   <link rel="stylesheet" href="./dist/output.css" />
   <script src="./src/assets/js/main.js" defer></script>
 </head>
@@ -24,6 +32,10 @@
     <!-- Intro -->
     <section class="py-12">
       <h1 class="text-3xl font-bold tracking-tight text-slate-900">We sell fresh fish. Come by.</h1>
+      <!-- DAD-PHOTO: Photo: fish counter here -->
+      <div class="mt-6 flex h-40 w-full items-center justify-center rounded-lg border-2 border-dashed border-slate-200 bg-slate-50 text-sm text-slate-400">
+        Photo: fish counter here
+      </div>
       <p class="mt-4 text-slate-600">
         Family-owned fish market in Paterson. Fresh fish and shellfish every day we're open.
       </p>
@@ -32,6 +44,10 @@
     <!-- Our Fish -->
     <section class="pb-12">
       <h2 class="text-xl font-semibold tracking-tight text-slate-900">Our Fish</h2>
+      <!-- DAD-PHOTO: Photo: fish counter here -->
+      <div class="mt-6 flex h-40 w-full items-center justify-center rounded-lg border-2 border-dashed border-slate-200 bg-slate-50 text-sm text-slate-400">
+        Photo: fish counter here
+      </div>
       <ul class="mt-4 list-disc space-y-2 pl-5 text-slate-600">
         <li>Fish fillets &amp; whole fish</li>
         <li>Shellfish — shrimp, lobster, clams</li>
@@ -83,10 +99,13 @@
           </tr>
         </tbody>
       </table>
-      <!-- Map embed placeholder -->
-      <div class="mt-6 flex h-48 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-sm text-slate-400">
-        Map embed goes here
-      </div>
+      <!-- Map embed -->
+      <iframe
+        src="https://maps.google.com/maps?q=235%20Buffalo%20Ave%2C%20Paterson%2C%20NJ%2007503&output=embed"
+        class="mt-6 h-48 w-full rounded-lg border border-slate-200"
+        loading="lazy"
+        title="Map to Okay Fish Market"
+      ></iframe>
     </section>
 
     <!-- Contact -->

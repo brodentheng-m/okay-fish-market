@@ -35,3 +35,21 @@ style-guide.md        Design contract for AI agents
 AGENTS.md             Agent instructions
 opencode.json         Model pin
 ```
+
+## Updating content
+
+- **Phone number:** search `index.html` for `REPLACE WITH REAL PHONE` and
+  swap in the real number (appears in the header, contact section, and
+  footer).
+- **Hours:** search `index.html` for `CONFIRM HOURS WITH DAD` and update the
+  hours table with Dad's actual hours.
+- **Photos:** add photos per `src/assets/img/PHOTOS.md`; they replace the
+  dashed `DAD-PHOTO` placeholder blocks in `index.html`.
+- Then rebuild and ship:
+
+  ```bash
+  npm run build
+  git add -A
+  git commit -m "Update content"
+  git push
+  ```
