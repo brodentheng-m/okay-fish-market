@@ -1,0 +1,14 @@
+{
+  "name": "modern-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clean, minimal, high-performance static site built on plain HTML + Tailwind CSS v4. Slate / white / emerald design system. Strictly no purple.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

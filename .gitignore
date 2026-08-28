@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+
+# Note: dist/ (generated build) is intentionally COMMITTED so GitHub Pages
+# serves the compiled site straight from the branch — no CI step needed.
