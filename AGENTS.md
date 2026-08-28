@@ -38,5 +38,6 @@ not rely on that. Write slate/emerald classes directly.
 ## Rules of thumb
 
 - Utility-first Tailwind classes; don't add custom CSS unless a token is missing.
-- Mobile-first; system font stack; `shadow-sm` max; `rounded-lg/xl/2xl`.
-- Keep it fast: no frameworks, no webfonts, no heavy deps.
+- Mobile-first; headings Playfair Display (`font-display`), body Inter (`font-sans`);
+  `shadow-sm` max; `rounded-lg/xl/2xl`.
+- Keep it fast: no frameworks, no heavy deps (webfonts: Google Fonts Playfair + Inter only).

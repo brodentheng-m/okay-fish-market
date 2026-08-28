@@ -1,7 +1,7 @@
 # Modern Site
 
 Clean, minimal, high-performance static website base.
-Plain HTML + Tailwind CSS v4 · no framework · no webfonts.
+Plain HTML + Tailwind CSS v4 · no framework · Google Fonts: Playfair Display (headings) + Inter (body)
 Design system: slate, crisp white, deep emerald. Strictly no purple.
 
 ## Quickstart

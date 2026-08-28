@@ -66,10 +66,17 @@ still compiles. Never add a third hue to a gradient.
 
 ## 4. Typography
 
-- System font stack only (Tailwind default) — no webfonts, no network deps.
-- Headings: `font-bold tracking-tight text-slate-900`.
+- Headings: **Playfair Display** (bold serif) — the classic, sharp serif that
+  carries deep history, trust, and family ownership. Apply with the
+  `font-display` utility (loaded: weights 600/700/800).
+- Body: **Inter** (regular 400, medium 500) — clean, modern, readable; the
+  default `font-sans` (persistent built-in weights: 400/500/600).
+- Headings: `font-display font-bold tracking-tight text-slate-900`.
 - Body: `text-slate-600`, max readable width `max-w-2xl`.
 - Eyebrow labels: `text-sm font-semibold uppercase tracking-widest text-emerald-600`.
+- Fonts load from Google Fonts via `<link>` in the `index.html` head
+  (preconnected, `display=swap`). Do NOT add extra families/weights without
+  approval.
 
 ## 5. Shape, Shadow, Spacing
 
